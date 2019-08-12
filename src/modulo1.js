@@ -1,9 +1,4 @@
-"use strict";
-
-/* MÓDULO 1 */
-
 /* EXERCÍCIO 1 */
-
 /*class Usuario {
     constructor(email, senha) {
         this.email = email;
@@ -28,8 +23,8 @@ const Adm1 = new Admin('email@teste.com', 'senha123');
 console.log(User1.isAdmin()) // false
 console.log(Adm1.isAdmin()) // true */
 
-/* EXERCÍCIO 2 */
 
+/* EXERCÍCIO 2 */
 /*const usuarios = [
     { nome: 'Diego', idade: 23, empresa: 'Rocketseat' },
     { nome: 'Gabriel', idade: 15, empresa: 'Rocketseat' },
@@ -55,8 +50,8 @@ const uniao = usuarios
 ;
 console.log(uniao);*/
 
-/* EXERCÍCIO 3 */
 
+/* EXERCÍCIO 3 */
 /*//3.1
 const arr = [1, 2, 3, 4, 5];
 arr.map(item => item + 10);
@@ -80,9 +75,9 @@ console.log(mostraUsuario(nome));
 //3.4
 const promise = () => new Promise((resolve, reject) => resolve());*/
 
+
 /* EXERCÍCIO 4 */
 //4.1
-
 /*const empresa = {
     nome: 'Rocketseat',
     endereco: {
@@ -106,7 +101,6 @@ function mostraInfo({nome, idade}) {
 console.log(mostraInfo({ nome: 'Diego', idade: 23 }));*/
 
 /* EXERCÍCIO 5 */
-
 /*//5.1
 const arr = [1, 2, 3, 4, 5, 6];
 
@@ -137,17 +131,16 @@ console.log(usuario2);
 console.log(usuario3);*/
 
 /* EXERCÍCIO 6 */
-
 /*const usuario = 'Diego';
 const idade = 23;
 console.log(`O usuário ${usuario} possui ${idade} anos`);*/
 
 /* EXERCICIO 7 */
-var nome = 'Diego';
-var idade = 23;
-var usuario = {
-  nome: nome,
-  idade: idade,
-  cidade: 'Rio do Sul'
+const nome = 'Diego';
+const idade = 23;
+const usuario = {
+    nome,
+    idade,
+    cidade: 'Rio do Sul',
 };
 console.log(usuario);
