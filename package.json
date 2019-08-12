@@ -1,0 +1,16 @@
+{
+  "name": "Curso-ES6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Elnisky22/Curso-ES6.git",
+  "author": "Leonardo Elnisky <leonardoelnisky@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "scripts": {
+    "dev": "babel ./util.js -o ./bundle.js -w"
+  }
+}
